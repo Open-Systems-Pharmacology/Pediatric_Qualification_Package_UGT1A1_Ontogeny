@@ -8,7 +8,7 @@
         },
         {
             "Id": "Raltegravir-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Pediatrics/main/Raltegravir-Pediatrics.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Pediatrics/v1.0/Raltegravir-Pediatrics.json",
             "BuildingBlocks": [
             ]
         }
@@ -16,7 +16,7 @@
     "ObservedDataSets": [
         {
             "Id": "PK-Parameter",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/master/Pediatrics.csv",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.3/Pediatrics.csv",
             "Type": "PKRatio"
         }
     ],

@@ -144,14 +144,12 @@ createQualificationReport <- function(qualificationRunnerFolder,
     #workflow$inactivateTasks("simulate")
     #workflow$inactivateTasks("calculatePKParameters")
     #workflow$inactivateTasks("plotTimeProfiles")
-    workflow$inactivateTasks("plotComparisonTimeProfile")
-    workflow$inactivateTasks("plotGOFMerged")
+    #workflow$inactivateTasks("plotComparisonTimeProfile")
+    #workflow$inactivateTasks("plotGOFMerged")
     #workflow$inactivateTasks("plotPKRatio")
-    workflow$inactivateTasks("plotDDIRatio")
+    #workflow$inactivateTasks("plotDDIRatio")
   
   #' Run the `QualificatitonWorklfow`
-   #workflow$plotPKRatio$settings$units$<PK parameter name> <- <PK parameter unit>
-   #workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
    workflow$plotPKRatio$settings$units$AUC_tEnd <- "µmol*h/L"
    workflow$runWorkflow()
   
